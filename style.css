@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans"; 
+}
+
+.header {
+    height: 70px;
+    width: 100%;
+    background: rgba(196, 196, 196, 0.75);
+}
+
+.header-container {
+    width: 1440px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 346px;
+    height: 48px;
+}
+
+.header-logo {
+    padding: 11px 0 11px 0; 
+}
+
+.logo-link {
+    text-decoration: none;
+    font-size: 40px;
+    line-height: 48px;
+    color: #3A3A3A;
+}
+
+.logo-link:hover {
+    color: #fff;
+    transition: 0.2s ease-in-out;
+}
+
+.search-bar {
+    padding: 14px 0 11px 0;
+    position: relative;
+}
+
+.search-bar input {
+    width: 295px;
+    height: 45px;
+    padding: 12px 79px 12px 35px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #616161;
+    border: none;
+    background-image: url('img/Search.svg');
+    background-repeat: no-repeat;
+    background-position: 6px;
+}
+
+.main {
+    width: 1025px;
+    height: 939px;
+    margin: 0 auto;
+}
+
+.card {
+    margin: 38px 0 138px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-items {
+    margin-bottom: 47px;
+    width: 295px;
+    height: 446px;
+    position: relative;
+    background-color: #F4F5F7;
+}
+
+.card-items:last-of-type {
+    margin-right: 362px;
+}
+
+.card-items:nth-of-type(3):hover::after{
+    content: "";
+    display: block;
+    width: 295px;
+    height: 301px;
+    background: rgba(200, 164, 164, 0.55);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+
+.product-image {
+    width: 295px;
+    height: 301px;
+}
+
+.card-label-sale {
+    width: 50px;
+    height: 48px;
+    border-radius: 50%;
+    background: #E97171;
+    position: absolute;
+    left: 75%;
+    top: 5%;
+}
+
+.card-label-new {
+    width: 50px;
+    height: 48px;
+    border-radius: 50%;
+    background: #2EC1AC;
+    position: absolute;
+    left: 75%;
+    top: 5%;
+}
+
+.card-label-star {
+    width: 50px;
+    height: 48px;
+    border-radius: 50%;
+    background: #EAD836;
+    position: absolute;
+    left: 75%;
+    top: 5%;
+}
+
+.card-label-sale span, 
+.card-label-new span {
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    position: absolute;
+    left: 8px;
+    top: 11px;
+}
+
+.card-label-star span {
+    width: 30px;
+    height: 30px;
+    background-image: url('img/Star.svg');
+    background-repeat: no-repeat;
+    color: #fff;
+    position: absolute;
+    left: 10px;
+    top: 9px;
+}
+
+.card-description {
+    width: 295px;
+    height: 145px;
+    padding: 16px 35px 30px 16px;
+}
+
+.product-price {
+    padding-top: 8px;
+}
+
+
+.text-heading {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #3A3A3A;
+}
+
+.text-description {
+    padding-top: 8px;
+    font-size: 16px;
+    line-height: 150%;
+    color: #898989;
+}
+
+.sale-price {
+    display: inline;    
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #3A3A3A;
+}
+
+.full-price {
+    padding: 0 5px;
+    display: inline;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: line-through;
+    color: #B0B0B0;
+}
+
+.footer {
+    margin-top: 138px;
+    height: 70px;
+    width: 100%;
+    background: rgba(196, 196, 196, 0.75);
+}
+
+.footer-container {
+    width: 1440px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links {
+    list-style: none;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.nav-links a, li {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    color: #3A3A3A;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+}
+
+.copyright {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    font-style: normal;
+    color: #3A3A3A;
+}
