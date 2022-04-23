@@ -80,11 +80,7 @@ body {
     background-color: #F4F5F7;
 }
 
-.card-items:last-of-type {
-    margin-right: 362px;
-}
-
-.card-items:nth-of-type(3):hover::after{
+.card-items:hover::after{
     content: "";
     display: block;
     width: 295px;
