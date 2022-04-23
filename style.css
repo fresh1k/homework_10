@@ -26,7 +26,7 @@ body {
 }
 
 .header-logo {
-    padding: 11px 0 11px 0; 
+    padding: 11px 0 11px 75px; 
 }
 
 .logo-link {
@@ -42,7 +42,7 @@ body {
 }
 
 .search-bar {
-    padding: 14px 0 11px 0;
+    padding: 14px 0 11px 120px;
     position: relative;
 }
 
@@ -66,10 +66,16 @@ body {
 }
 
 .card {
-    margin: 38px 0 138px 0;
+    margin-top: 38px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.card::after{
+    content: "";
+    flex: 1 1 100%;
+    max-width: 28%;
 }
 
 .card-items {
@@ -80,11 +86,7 @@ body {
     background-color: #F4F5F7;
 }
 
-.card-items:last-of-type {
-    margin-right: 362px;
-}
-
-.card-items:nth-of-type(3):hover::after{
+.card-items:hover::after{
     content: "";
     display: block;
     width: 295px;
