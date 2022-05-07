@@ -72,17 +72,17 @@ body {
 .card {
     margin-top: 38px;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.card::after{
+/* .card::after{
     content: "";
     flex: 1 1 100%;
     max-width: 28%;
-}
+} */
 
 .card-items {
+    margin-right: 46px;
     margin-bottom: 47px;
     width: 295px;
     height: 446px;
