@@ -57,7 +57,7 @@ body {
 .fa-search {
     width: 20px;
     height: 20px;
-    background-image: url('img/search.svg');
+    background-image: url('images/search.svg');
     background-repeat: no-repeat;
     position: absolute;
     left: 9px;
@@ -151,7 +151,7 @@ body {
 .card-label-star span {
     width: 30px;
     height: 30px;
-    background-image: url('img/star.svg');
+    background-image: url('images/star.svg');
     background-repeat: no-repeat;
     color: #fff;
     position: absolute;
