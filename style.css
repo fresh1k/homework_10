@@ -75,19 +75,17 @@ body {
     flex-wrap: wrap;
 }
 
-/* .card::after{
-    content: "";
-    flex: 1 1 100%;
-    max-width: 28%;
-} */
-
 .card-items {
-    margin-right: 46px;
+    margin-right: 70px;
     margin-bottom: 47px;
-    width: 295px;
+    width: 294px;
     height: 446px;
     position: relative;
     background-color: #F4F5F7;
+}
+
+.card-items:nth-child(3n){
+    margin-right: 0;
 }
 
 .card-items:hover::after{
